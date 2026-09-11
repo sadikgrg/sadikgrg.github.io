@@ -3,7 +3,6 @@ import nycDashboardVideo from "./assets/nyc-citi-bike-dashboard.mp4";
 import permitsOverview from "./assets/edmonton-permits-overview.png";
 import permitsDetails from "./assets/edmonton-permits-details.png";
 import rentalGamResults from "./assets/canadian-rental-gam-results.png";
-import rentalReport from "./assets/canadian-rental-price-prediction.pdf?url";
 
 export const siteConfig = {
   name: "Sadik Gurung",
@@ -75,10 +74,6 @@ skills: [
           caption: "GAM predictions compared with actual rental prices",
         },
       ],
-      report: {
-        src: rentalReport,
-        label: "Read full analysis (PDF)",
-      },
       skills: ["R", "GAM", "Predictive Modelling", "Model Evaluation"],
     },
   ],
