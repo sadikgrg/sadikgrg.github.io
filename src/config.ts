@@ -16,7 +16,7 @@ export const siteConfig = {
     github: "https://github.com/sadikgrg",
   },
   aboutMe:
-    "I am a 4th year Stat and CS student at the University of Alberta graduating in Apr, 2027. I specialize in statistical data analysis and data science/machine learning. I use Python, R and SQL to clean and explore data, build reliable models, create visualizations that are useful and nice to look at. My projects and interests span regressions, classifications, data analysis and building interactive dashboards. I enjoy diving deep into the data to turn it into something cool and insightful. Outside of school and data, I love fishing, camping and spending time in the beatiful outdoors.",
+    "I am a 4th year Stat and CS student at the University of Alberta graduating in Apr, 2027. I specialize in statistical data analysis and data science/machine learning. I use Python, R and SQL to clean and explore data, build reliable models, create visualizations that are useful and nice to look at. My projects and interests span regressions, classifications, data analysis and building interactive dashboards. I enjoy diving deep into the data to turn it into something cool and insightful. Outside of school and data, I love fishing, camping and spending time in the beautiful outdoors.",
 
 skills: [
   "Python",
