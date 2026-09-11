@@ -98,7 +98,7 @@ skills: [
     {
       school: "University of Alberta",
       degree: "Bachelor of Science, Major in Statistics, Minor in Computer Science",
-      dateRange: "Expected Graduation: April 2027",
+      dateRange: "Expected Graduation: Apr, 2027",
       achievements: [
         "Courseworks: Applied Regression, Time Series Analysis, Applied Statistical Methods for Data Analysis, Computing for Data Science, Machine Learning & Data Mining, Data Structures & Algorithms, Geographical Information System.",
 
