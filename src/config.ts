@@ -16,10 +16,20 @@ export const siteConfig = {
     github: "https://github.com/sadikgrg",
   },
   aboutMe:
-    "I am a 4th year Stat and CS student at the University of Alberta graduating in Apr, 2027. I specialize in statistical data analysis and data science/machine learning. I use Python, R and SQL to explore data and turn it into reliable models, pretty visualizations and practical answers to complex problems. My projects and interests span regressions, classifications, data analysis and building interactive dashboards.",
+    "I am a 4th year Stat and CS student at the University of Alberta graduating in Apr, 2027. I specialize in statistical data analysis and data science/machine learning. I use Python, R and SQL to clean and explore data, build reliable models, create visualizations that are useful and nice to look at. My projects and interests span regressions, classifications, data analysis and building interactive dashboards. I enjoy diving deep into the data to turn it into something cool and insightful. Outside of school and data, I love fishing, camping and spending time in the beatiful outdoors.",
 
-  skills: ["Python", "R", "SQL", "PostgreSQL", "PowerBI"
-  ],
+skills: [
+  "Python",
+  "R",
+  "SQL",
+  "PostgreSQL",
+  "Power BI",
+  "Streamlit",
+  "Machine Learning",
+  "Statistical Modeling",
+  "Data Visualization",
+  "Git & GitHub"
+],
   projects: [
     {
       name: "NYC Citi Bike Flow Forecasting",
