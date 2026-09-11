@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import aboutPortrait from "../assets/about-portrait.JPEG";
 ---
 
 <section id="about" class="p-8 sm:p-12 md:p-16 lg:p-24">
@@ -15,6 +16,18 @@ import { siteConfig } from "../config";
           class="w-[75px] h-[5px] mt-2 rounded-full"
           style={`background-color: ${siteConfig.accentColor}`}
         >
+        </div>
+
+        <div class="mt-8 max-w-sm overflow-hidden rounded-2xl shadow-lg">
+          <img
+            src={aboutPortrait.src}
+            width={aboutPortrait.width}
+            height={aboutPortrait.height}
+            alt="Sadik Gurung holding a fish outdoors"
+            loading="lazy"
+            decoding="async"
+            class="aspect-[4/5] h-auto w-full object-cover"
+          />
         </div>
       </div>
 

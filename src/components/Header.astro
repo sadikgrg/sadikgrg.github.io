@@ -15,7 +15,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       <li>
         <a
           href="#about"
-          class="text-gray-700 hover:text-black transition-colors font-medium"
+          class="nav-link transition-colors font-medium"
         >
           About
         </a>
@@ -25,7 +25,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="nav-link transition-colors font-medium"
             >
               Projects
             </a>
@@ -37,7 +37,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#experience"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="nav-link transition-colors font-medium"
             >
               Experience
             </a>
@@ -49,7 +49,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#education"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="nav-link transition-colors font-medium"
             >
               Education
             </a>
@@ -65,8 +65,10 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     const header = document.getElementById("header");
     if (window.scrollY > 100) {
       header?.classList.add("bg-white/80", "backdrop-blur-sm");
+      header?.classList.add("is-scrolled");
     } else {
       header?.classList.remove("bg-white/80", "backdrop-blur-sm");
+      header?.classList.remove("is-scrolled");
     }
   });
 </script>
@@ -74,5 +76,21 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 <style>
   html {
     scroll-behavior: smooth;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .nav-link:hover {
+    color: #bfdbfe;
+  }
+
+  #header.is-scrolled .nav-link {
+    color: #374151;
+  }
+
+  #header.is-scrolled .nav-link:hover {
+    color: #000;
   }
 </style>
