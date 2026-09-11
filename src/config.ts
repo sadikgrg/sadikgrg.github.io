@@ -7,7 +7,7 @@ import rentalReport from "./assets/canadian-rental-price-prediction.pdf?url";
 
 export const siteConfig = {
   name: "Sadik Gurung",
-  title: "Aspiring Data Analyst | Stats & CS",
+  title: "Aspiring Data Analyst | Stats & CS @UAlberta",
   description: "Portfolio website of Sadik Gurung",
   accentColor: "#1d4ed8",
   social: {
